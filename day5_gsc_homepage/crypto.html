@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto — GosPower Tech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HERO & NAVBAR -->
+    <header class="hero" style="height:75vh; background:url('lil\ g.jpg') center/cover no-repeat;">
+        <div class="overlay"></div>
+        <nav class="navbar">
+            <div class="logo">GosPower <span>Tech</span></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="tech.html">Tech</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="crypto.html" class="active">Crypto</a></li>
+                <li><a href="ai.html">AI</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <h1>Crypto News & Insights</h1>
+            <p>Stay updated with cryptocurrency prices, trends, and trading tips.</p>
+        </div>
+    </header>
+
+    <!-- CRYPTO DASHBOARD -->
+    <section class="section trending">
+        <h2 class="section-title">💹 Top Cryptocurrencies</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Bitcoin (BTC)</h3>
+                <p>Current Price: $<span id="btc-price">--</span></p>
+                <p>Market Cap: $<span id="btc-market">--</span></p>
+            </div>
+            <div class="card">
+                <h3>Ethereum (ETH)</h3>
+                <p>Current Price: $<span id="eth-price">--</span></p>
+                <p>Market Cap: $<span id="eth-market">--</span></p>
+            </div>
+            <div class="card">
+                <h3>Cardano (ADA)</h3>
+                <p>Current Price: $<span id="ada-price">--</span></p>
+                <p>Market Cap: $<span id="ada-market">--</span></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CRYPTO GUIDES -->
+    <section class="section reviews">
+        <h2 class="section-title">📖 Crypto Guides</h2>
+        <div class="grid">
+            <article class="card">
+                <h3>How to Start Trading Crypto</h3>
+                <p>A beginner-friendly guide to buying, selling, and holding cryptocurrencies safely.</p>
+                <a href="#" class="read">Read More →</a>
+            </article>
+            <article class="card">
+                <h3>Top 5 Crypto Wallets</h3>
+                <p>Discover the most secure and user-friendly wallets for storing your digital assets.</p>
+                <a href="#" class="read">Read More →</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact">
+        <h2 class="section-title">📩 Contact Us</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 GosPower Tech — All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
